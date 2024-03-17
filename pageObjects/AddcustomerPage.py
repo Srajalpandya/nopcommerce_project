@@ -5,9 +5,11 @@ class AddCustomer:
     # Add customer Page
     lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
     lnkCustomers_menuitem_xpath = "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]"
+    btnEditCustomerDetail_xpath = "//tbody/tr[1]/td[7]/a[1][1]/i[1]"
     btnAddnew_xpath = "//a[@class='btn btn-primary']"
     txtEmail_xpath = "//input[@id='Email']"
     txtPassword_xpath = "//input[@id='Password']"
+    btnChangePassword = "//button[@name='changepassword']"
     txtFirstName_xpath = "//input[@id='FirstName']"
     txtLastName_xpath = "//input[@id='LastName']"
     rdMaleGender_id = "Gender_Male"
@@ -35,16 +37,26 @@ class AddCustomer:
     def clickOnAddnew(self):
         self.driver.find_element("xpath", self.btnAddnew_xpath).click()
 
+    def clickOnEditCustomerDetails(self):
+        self.driver.find_element("xpath", self.btnEditCustomerDetail_xpath).click()
+
     def setEmail(self,email):
+        self.driver.find_element("xpath", self.txtEmail_xpath).clear()
         self.driver.find_element("xpath", self.txtEmail_xpath).send_keys(email)
 
     def setPassword(self,password):
+        self.driver.find_element("xpath", self.txtPassword_xpath).clear()
         self.driver.find_element("xpath", self.txtPassword_xpath).send_keys(password)
 
+    def changePassword(self):
+        self.driver.find_element("xpath",self.btnChangePassword).click()
+
     def setFirstName(self, fname):
+        self.driver.find_element("xpath", self.txtFirstName_xpath).clear()
         self.driver.find_element("xpath", self.txtFirstName_xpath).send_keys(fname)
 
     def setLastName(self, lname):
+        self.driver.find_element("xpath", self.txtLastName_xpath).clear()
         self.driver.find_element("xpath", self.txtLastName_xpath).send_keys(lname)
 
     def setGender(self,gender):
@@ -58,9 +70,11 @@ class AddCustomer:
 
 
     def setDob(self, dob):
+        self.driver.find_element("xpath", self.txtDob_xpath).clear()
         self.driver.find_element("xpath", self.txtDob_xpath).send_keys(dob)
 
     def setCompanyName(self, comname):
+        self.driver.find_element("xpath", self.txtCompanyName_xpath).clear()
         self.driver.find_element("xpath", self.txtCompanyName_xpath).send_keys(comname)
 
     def setCustomerRoles(self,role):
@@ -92,6 +106,7 @@ class AddCustomer:
 
 
     def setAdminContent(self, content):
+        self.driver.find_element("xpath", self.txtAdminContent_xpath).clear()
         self.driver.find_element("xpath", self.txtAdminContent_xpath).send_keys(content)
 
     def clickOnSave(self):

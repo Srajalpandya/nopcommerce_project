@@ -124,3 +124,44 @@
 03/17/2024 09:53:46 AM: INFO: ******* Starting Search Customer By Name **********
 03/17/2024 09:53:51 AM: INFO: ************* searching customer by Name **********
 03/17/2024 09:53:57 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+03/17/2024 02:45:25 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 02:45:31 PM: INFO: ************* Login successful **********
+03/17/2024 02:45:31 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 02:45:41 PM: INFO: ************* Providing customer info **********
+03/17/2024 02:48:18 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 02:48:25 PM: INFO: ************* Login successful **********
+03/17/2024 02:48:25 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 02:48:36 PM: INFO: ************* Providing customer info **********
+03/17/2024 02:48:53 PM: INFO: ************* Saving customer info **********
+03/17/2024 02:48:53 PM: INFO: ********* Edit customer validation started *****************
+03/17/2024 02:48:55 PM: ERROR: ********* Edit customer Test Failed ************
+03/17/2024 03:22:11 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 03:22:17 PM: INFO: ************* Login successful **********
+03/17/2024 03:22:17 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 03:22:27 PM: INFO: ************* Providing customer info **********
+03/17/2024 03:22:41 PM: INFO: ************* Saving customer info **********
+03/17/2024 03:22:41 PM: INFO: ********* Edit customer validation started *****************
+03/17/2024 03:22:43 PM: ERROR: ********* Edit customer Test Failed ************
+03/17/2024 03:23:48 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 03:23:53 PM: INFO: ************* Login successful **********
+03/17/2024 03:23:53 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 03:24:04 PM: INFO: ************* Providing customer info **********
+03/17/2024 03:24:18 PM: INFO: ************* Saving customer info **********
+03/17/2024 03:24:18 PM: INFO: ********* Edit customer validation started *****************
+03/17/2024 03:24:19 PM: ERROR: ********* Edit customer Test Failed ************
+03/17/2024 03:37:42 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 03:37:48 PM: INFO: ************* Login successful **********
+03/17/2024 03:37:48 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 03:37:59 PM: INFO: ************* Providing customer info **********
+03/17/2024 03:38:17 PM: INFO: ************* Saving customer info **********
+03/17/2024 03:38:17 PM: INFO: ********* Edit customer validation started *****************
+03/17/2024 03:38:17 PM: INFO: ********* Edit customer Test Passed *********
+03/17/2024 03:38:18 PM: INFO: ******* Ending Edit customer test **********
+03/17/2024 03:38:55 PM: INFO: ************* Test_003_editCustomer **********
+03/17/2024 03:39:00 PM: INFO: ************* Login successful **********
+03/17/2024 03:39:00 PM: INFO: ******* Starting Edit Customer Test **********
+03/17/2024 03:39:11 PM: INFO: ************* Providing customer info **********
+03/17/2024 03:39:29 PM: INFO: ************* Saving customer info **********
+03/17/2024 03:39:29 PM: INFO: ********* Edit customer validation started *****************
+03/17/2024 03:39:30 PM: INFO: ********* Edit customer Test Passed *********
+03/17/2024 03:39:31 PM: INFO: ******* Ending Edit customer test **********
