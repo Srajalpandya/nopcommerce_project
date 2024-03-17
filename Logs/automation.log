@@ -82,3 +82,45 @@
 03/16/2024 05:21:18 PM: INFO: ******* Starting Search Customer By Name **********
 03/16/2024 05:21:22 PM: INFO: ************* searching customer by Name **********
 03/16/2024 05:21:29 PM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+03/17/2024 09:50:03 AM: INFO: ************* Test_003_AddCustomer **********
+03/17/2024 09:50:08 AM: INFO: ************* Login successful **********
+03/17/2024 09:50:08 AM: INFO: ******* Starting Add Customer Test **********
+03/17/2024 09:50:18 AM: INFO: ************* Providing customer info **********
+03/17/2024 09:50:32 AM: INFO: ************* Saving customer info **********
+03/17/2024 09:50:32 AM: INFO: ********* Add customer validation started *****************
+03/17/2024 09:50:33 AM: INFO: ********* Add customer Test Passed *********
+03/17/2024 09:50:33 AM: INFO: ******* Ending Add customer test **********
+03/17/2024 09:50:36 AM: INFO: **********************************Testing Login test***********************************
+03/17/2024 09:50:42 AM: INFO: **********************************Login Test Passed***********************************
+03/17/2024 09:51:03 AM: INFO: ************* Test_003_AddCustomer **********
+03/17/2024 09:51:07 AM: INFO: ************* Login successful **********
+03/17/2024 09:51:07 AM: INFO: ******* Starting Add Customer Test **********
+03/17/2024 09:51:18 AM: INFO: ************* Providing customer info **********
+03/17/2024 09:51:32 AM: INFO: ************* Saving customer info **********
+03/17/2024 09:51:32 AM: INFO: ********* Add customer validation started *****************
+03/17/2024 09:51:33 AM: INFO: ********* Add customer Test Passed *********
+03/17/2024 09:51:34 AM: INFO: ******* Ending Add customer test **********
+03/17/2024 09:51:36 AM: INFO: **********************************Testing Login test***********************************
+03/17/2024 09:51:44 AM: INFO: **********************************Login Test Passed***********************************
+03/17/2024 09:52:38 AM: INFO: ************* Test_003_AddCustomer **********
+03/17/2024 09:52:44 AM: INFO: ************* Login successful **********
+03/17/2024 09:52:44 AM: INFO: ******* Starting Add Customer Test **********
+03/17/2024 09:52:54 AM: INFO: ************* Providing customer info **********
+03/17/2024 09:53:08 AM: INFO: ************* Saving customer info **********
+03/17/2024 09:53:08 AM: INFO: ********* Add customer validation started *****************
+03/17/2024 09:53:09 AM: INFO: ********* Add customer Test Passed *********
+03/17/2024 09:53:10 AM: INFO: ******* Ending Add customer test **********
+03/17/2024 09:53:12 AM: INFO: **********************************Testing homepage title***********************************
+03/17/2024 09:53:15 AM: INFO: **********************************Test is Passed***********************************
+03/17/2024 09:53:17 AM: INFO: **********************************Testing Login test***********************************
+03/17/2024 09:53:24 AM: INFO: **********************************Login Test Passed***********************************
+03/17/2024 09:53:26 AM: INFO: ************* SearchCustomerByEmail_004 **********
+03/17/2024 09:53:30 AM: INFO: ************* Login successful **********
+03/17/2024 09:53:30 AM: INFO: ******* Starting Search Customer By Email **********
+03/17/2024 09:53:33 AM: INFO: ************* searching customer by emailID **********
+03/17/2024 09:53:40 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+03/17/2024 09:53:42 AM: INFO: ************* SearchCustomerByName_005 **********
+03/17/2024 09:53:46 AM: INFO: ************* Login successful **********
+03/17/2024 09:53:46 AM: INFO: ******* Starting Search Customer By Name **********
+03/17/2024 09:53:51 AM: INFO: ************* searching customer by Name **********
+03/17/2024 09:53:57 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 

@@ -11,7 +11,7 @@ class Test_002_DDT_Login:
     path = ".//TestData/LoginData.xlsx"
     logger = LogGen.loggen()
 
-
+    pytest.mark.regression
     def test_login(self,setup):
         self.logger.info("**********************************Testing Login test***********************************")
         self.driver = setup

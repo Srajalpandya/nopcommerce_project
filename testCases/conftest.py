@@ -1,6 +1,7 @@
 from selenium import webdriver
 import pytest
 
+
 @pytest.fixture()
 def setup(browser):
     if browser == "chrome":

@@ -9,6 +9,7 @@ class Test_001_Login:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_homePageTitle(self,setup):
         self.logger.info("**********************************Testing homepage title***********************************")
         self.driver = setup
@@ -24,7 +25,8 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("**********************************Test is Failed***********************************")
 
-
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self,setup):
         self.logger.info("**********************************Testing Login test***********************************")
         self.driver = setup
